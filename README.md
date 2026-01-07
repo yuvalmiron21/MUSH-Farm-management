@@ -1,6 +1,6 @@
 # 🍄 Mushroom Farm Management System
 
-<img src="assets/dashboard_preview.png" alt="Dashboard Preview" width="100%">
+![Dashboard Preview](assets/dashboard_preview.png)
 
 ## Overview
 **Mushroom Farm Management System** is a comprehensive, data-driven platform designed to optimize the operations of modern mushroom farms. Built with **Python (PyQt5)** and **Firebase**, it provides real-time tracking of inventory, growing conditions, orders, and customer analytics.
@@ -22,6 +22,37 @@ This project demonstrates full-stack capabilities, integrating a desktop GUI wit
 *   **Data Analysis**: Pandas, Matplotlib, NumPy
 *   **Security**: bcrypt for password hashing
 *   **Environment**: Cross-platform compatible (Windows/macOS/Linux)
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+*   Python 3.8+
+*   A Firebase project with Realtime Database enabled
+
+### 1. Clone & Install
+```bash
+git clone https://github.com/StartUpYuval/farm-management-MUSH.git
+cd farm-management-MUSH
+pip install -r requirements.txt
+```
+
+### 2. Configure Credentials
+The system connects to Firebase. You have two options to provide authentication:
+
+**Option A (Environment Variable - Recommended)**:
+Set the `FIREBASE_CREDENTIALS_PATH` environment variable to point to your Service Account JSON file.
+```bash
+export FIREBASE_CREDENTIALS_PATH="/path/to/your-firebase-adminsdk.json"
+```
+
+**Option B (Local File)**:
+Place your `farm-management-FireBase_credentials.json` file inside the `db/` directory.
+*(Note: The `db/` folder is ignored by git to keep secrets safe.)*
+
+### 3. Run the Application
+```bash
+python UI/main.py
+```
 
 ## 👨‍💻 Author
 **Yuval Miron**
