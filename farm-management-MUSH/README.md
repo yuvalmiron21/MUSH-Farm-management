@@ -56,9 +56,7 @@ python UI/main.py
 
 ## 👨‍💻 Author
 **Yuval Miron**
-*   **Portfolio**: [Link to Portfolio](#)
-*   **LinkedIn**: [Link to LinkedIn](#)
-*   **GitHub**: [StartUpYuval](https://github.com/StartUpYuval)
+
 
 ---
 *Developed for the advanced management of agricultural environments.*
