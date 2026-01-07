@@ -1,0 +1,7 @@
+firebase-admin
+bcrypt
+pandas
+openpyxl
+nicegui
+plotly
+matplotlib
